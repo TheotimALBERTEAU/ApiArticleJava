@@ -7,8 +7,9 @@ plugins {
 
 dependencies {
     implementation project(':core-domain')
+    //implementation project(':adapter-jpa')
     implementation project(':adapter-mongo')
-    //implementation project(':adapter-mongo')
+    //implementation project(':adapter-mock')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
