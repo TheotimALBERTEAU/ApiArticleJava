@@ -1,6 +1,6 @@
 app:
   persistence:
-    type: jpa
+    type: mock
 
 spring:
   data:
